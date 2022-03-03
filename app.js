@@ -7,7 +7,7 @@ const template = document.querySelector('#template');
 const selectEl = document.querySelector('select');
 // validate with console.log(select); 
 const list = document.querySelector('#list');
-
+const errorElement = document.querySelector('#error-message');
 
 async function loadPokedex() {
     const pokedex = await getPokedex();
